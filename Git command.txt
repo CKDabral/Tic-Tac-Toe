@@ -1,0 +1,7 @@
+Command->
+1.git init                                                  ****its created a.git hiding folder, this folder is where all the magic happens, it keeps track of all your files base on the commands that you use.
+2.git status                                             ****Git is simply telling us we made some changes in our repository.And thodse changes are not tracking by Git right now
+3.git add File name                                 ****Git to track those changes
+4.git commit -m "new text file created"  *****In other words commit means to create a checkpoint (Version) so that we can always check the changes made at that particular time instance
+5.git remote add origin "https://github.com/kumarsandeep91/awesome-project.git"
+6.git push origin master 
