@@ -1,25 +1,5 @@
-#Set default('Key name',Value)
-'''
-message='i am a good boy. and i know it is not as cool as ben10'
-count={}
-for i in message:
-    count.setdefault(i,0)
-    count[i]=count[i]+1
-print(count)
-'''
-#Pprint method
-'''
-import pprint
-message='i am a good boy. and i know it is not as cool as ben10'
-count={}
-for i in message:
-    count.setdefault(i,0)
-    count[i]=count[i]+1
-pprint.pprint(count)
-'''
 
 #tic tac toe
-import os
 def prnt(b):
     print(b['top l']+'|'+b['top m']+'|'+b['top r'])
     print('-+-+-')
@@ -31,7 +11,6 @@ def work(b):
     count=0
     s=''
     while(1):
-        os.system('cls')
         print('enter the position you want to enter x')
         loc=input('press for any location')
         if loc in s:
